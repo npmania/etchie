@@ -276,7 +276,7 @@ article .title {
 }
 
 .tags li::before {
-  content: "🏷 ";
+  content: "- ";
 }
 
 .tags a {
