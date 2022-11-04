@@ -1,6 +1,6 @@
 <footer>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }}
+    {{ dateFormat "2006" now }} {{ .Site.Copyright }}
   </div>
 </footer>
 {{ if not .Site.IsServer }}
