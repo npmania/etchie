@@ -184,9 +184,13 @@ div.toc h2 {
   margin-top: 0;
   margin-bottom: .2em;
 }
+
 div.toc nav ol {
-  margin-top: 0;
-  margin-bottom: .8em;
+  margin: 0 0 0 1.7rem;
+}
+
+div.toc nav li ol {
+  margin-left: .7rem;
 }
 
 .list-item h1 {
