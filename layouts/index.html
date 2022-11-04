@@ -18,7 +18,7 @@
             <a href="{{ .RelPermalink }}">{{.Title }}</a>
           </h1>
           <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-          <br>
+          <br/>
           <div class="description">
             {{ if isset .Params "description" }}
             {{ .Description }}
