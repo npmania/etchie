@@ -16,7 +16,8 @@ body {
 }
 
 blockquote {
-  border-color: blue;
+  border-color: #3e71ff;
+  color: #b8b8b8;
 }
 
 h1,
