@@ -9,7 +9,7 @@
 
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Pretendard', sans-serif;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Pretendard', sans-serif;
   line-height: 1.5;
 }
 
@@ -245,7 +245,7 @@ article .title {
 }
 
 .callout p {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Pretendard', san-serif;
   margin: 0;
 }
 
