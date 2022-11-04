@@ -1,19 +1,19 @@
 /* Markdown */
 :root {
-  --maincolor: red;
-  --bordercl: rebeccapurple;
-  --hovercolor: navy;
-  --darkMaincolor: #50fa7b;
+  --maincolor: #cd0245;
+  --bordercl: rgb(128, 128, 128);
+  --hovercolor: rgb(32, 108, 250);
 }
 
 html {
-  color: #232333;
+  color: black;
   font-family: 'Pretendard', sans-serif;
   font-size: 15px;
   line-height: 1.6em;
 }
 
 body {
+  background-color: #fdf6e3;
   display: block;
   margin: 8px;
 }
