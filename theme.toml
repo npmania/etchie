@@ -11,5 +11,5 @@ features = ["blog", "Responsive", "Syntax highlighting"]
 min_version = "0.41"
 
 [author]
-  name = "npmania"
-  homepage = "https://github.com/npmania"
+name = "npmania"
+homepage = "https://github.com/npmania"
