@@ -69,6 +69,11 @@ ul>li::before {
   font-weight: bold;
 }
 
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 /* Images */
 img {
   border: 3px solid #ececec;
