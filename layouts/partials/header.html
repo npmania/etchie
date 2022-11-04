@@ -20,6 +20,9 @@
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+  {{- if (eq .Site.Params.mode "toggle") -}}
+  <script src="{{ .Site.BaseURL }}js/feather.min.js"></script>
+  {{ end }}
   {{ if .Site.Params.useCDN | default false -}}
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap"
         rel="stylesheet">
