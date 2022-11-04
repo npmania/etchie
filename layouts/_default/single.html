@@ -16,6 +16,12 @@
       {{ .Params.tldr }}
     </div>
     {{ end }}
+    {{ if eq (.Params.toc | default true) true }}
+    <div class="toc">
+    <h2>table of contents</h2>
+    {{ .Page.TableOfContents }}
+    </div>
+    {{ end }}
     <section class="body">
       {{ .Content }}
     </section>
