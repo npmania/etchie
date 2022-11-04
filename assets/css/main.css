@@ -2,7 +2,6 @@
 :root {
   --maincolor: #cd0245;
   --bordercl: #3a3a39;
-  --hovercolor: #206cfa;
 }
 
 html {
@@ -51,7 +50,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--hovercolor);
+  background-color: var(--maincolor);
   color: #fff;
 }
 
@@ -280,7 +279,7 @@ article .title {
 
 .tags a:hover {
   color: white;
-  background-color: var(--hovercolor);
+  background-color: var(--maincolor);
 }
 
 svg {
