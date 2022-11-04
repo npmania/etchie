@@ -214,7 +214,7 @@ article .title {
 }
 
 .tags a {
-  border-bottom: 3px solid var(--maincolor);
+  border-bottom: 1px solid var(--maincolor);
 }
 
 .tags a:hover {

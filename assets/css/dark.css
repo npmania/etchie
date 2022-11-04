@@ -65,7 +65,7 @@ a:hover {
 }
 
 .tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  border-bottom: 1px solid var(--darkMaincolor);
 }
 
 .tags a:hover {
