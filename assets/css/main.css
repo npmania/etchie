@@ -240,6 +240,10 @@ footer {
   margin-top: 2rem;
 }
 
+.footer-info .copyright {
+  font-size: .75rem;
+}
+
 .soc {
   display: flex;
   align-items: center;
