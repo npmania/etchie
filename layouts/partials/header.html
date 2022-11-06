@@ -43,13 +43,4 @@
       <link rel="stylesheet" type="text/css" href="{{ $customstyle.Permalink }}"/>
       {{ end }}
       {{- end -}}
-      {{- range .Site.Params.customJS }}
-      {{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
-      <script src="{{ . }}"></script>
-      {{- else if (hasPrefix . "<script")}}
-    {{ .| safeHTML }}
-	{{- else }}
-<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
-{{- end }}
-{{- end }}
 </head>
