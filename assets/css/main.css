@@ -117,31 +117,19 @@ figure h4::before {
 
 /* Code blocks */
 code {
-  background-color: #282a36;
-  color: #f8f8f2;
-  text-decoration: bold;
-  padding: .4em .2em .1em .2em;
+  background-color: #e4e4e4;
+  padding: .1em .2em .1em .2em;
   border-radius: .2em;
 }
 
 pre {
-  background-color: #282a36;
-  color: #f8f8f2;
-  line-height: 1.4;
+  background-color: #e4e4e4;
   overflow-x: auto;
   padding: 1em;
   border-radius: .4em;
 }
 
-.highlight pre ::selection {
-  background: rgba(255, 255, 255, 0.2);
-  color: inherit;
-}
-
 pre code {
-  background-color: transparent;
-  color: inherit;
-  font-size: 100%;
   padding: 0;
 }
 

@@ -39,6 +39,14 @@ a:hover {
   color: black;
 }
 
+code {
+  background-color: #242424;
+}
+
+pre {
+  background-color: #242424;
+}
+
 .site-description a {
   color: #ddd;
 }
